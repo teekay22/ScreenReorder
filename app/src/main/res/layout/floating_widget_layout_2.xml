@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+
+    <!--   Root container of Floating Widget View  -->
+    <RelativeLayout
+        android:id="@+id/root_container"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:id="@+id/expanded_container2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:visibility="gone"
+            android:layout_marginLeft="22dp">
+
+            <ImageView
+                android:id="@+id/iv_pause"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_centerInParent="true"
+                android:background="@drawable/white_circle_shape"
+                android:padding="10dp"
+                android:src="@drawable/ic_pause"
+                app:tint="@color/colorPrimary" />
+
+
+                />
+        </LinearLayout>
+
+        <RelativeLayout
+            android:id="@+id/collapse_view"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/expanded_container"
+            android:layout_marginTop="70dp">
+
+            <ImageView
+                android:id="@+id/iv_collapsedview"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_centerInParent="true"
+                android:background="@drawable/circle_shape"
+                android:padding="10dp"
+                android:src="@drawable/ic_recode"
+                app:tint="@color/white" />
+
+
+        </RelativeLayout>
+
+        <LinearLayout
+            android:id="@+id/ll_stop_view"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="60dp"
+            android:layout_toRightOf="@+id/collapse_view"
+            android:orientation="vertical"
+            android:visibility="gone">
+
+            <ImageView
+                android:id="@+id/iv_stop"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:background="@drawable/white_circle_shape"
+                android:padding="13dp"
+                android:src="@drawable/ic_stop"
+                app:tint="@color/colorPrimary"
+
+                />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_below="@+id/collapse_view"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="20dp"
+            android:id="@+id/ll_playview"
+            android:visibility="gone">
+            <ImageView
+                android:id="@+id/iv_play"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_centerInParent="true"
+                android:layout_marginLeft="20dp"
+                android:background="@drawable/white_circle_shape"
+                android:padding="10dp"
+                android:src="@drawable/ic_play"
+                app:tint="@color/colorPrimary">
+
+            </ImageView>
+
+        </LinearLayout>
+
+    </RelativeLayout>
+</FrameLayout>

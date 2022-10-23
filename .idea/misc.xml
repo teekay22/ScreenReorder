@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="app/src/main/res/drawable/circle_shape.xml" value="0.18981481481481483" />
+        <entry key="app/src/main/res/drawable/ic_cancel.xml" value="0.18981481481481483" />
+        <entry key="app/src/main/res/drawable/ic_close.xml" value="0.25092592592592594" />
+        <entry key="app/src/main/res/drawable/ic_delete.xml" value="0.24166666666666667" />
+        <entry key="app/src/main/res/drawable/ic_myrecording_popup.xml" value="0.24166666666666667" />
+        <entry key="app/src/main/res/drawable/ic_notification_record.xml" value="0.25092592592592594" />
+        <entry key="app/src/main/res/drawable/ic_pause.xml" value="0.25092592592592594" />
+        <entry key="app/src/main/res/drawable/ic_play_circle_outline_black_24dp.xml" value="0.24166666666666667" />
+        <entry key="app/src/main/res/drawable/ic_recode.xml" value="0.2037037037037037" />
+        <entry key="app/src/main/res/drawable/white_circle_shape.xml" value="0.24814814814814815" />
+        <entry key="app/src/main/res/layout/activity_main.xml" value="0.23020833333333332" />
+        <entry key="app/src/main/res/layout/activity_media_projection_permission.xml" value="0.24427083333333333" />
+        <entry key="app/src/main/res/layout/activity_splash.xml" value="0.24427083333333333" />
+        <entry key="app/src/main/res/layout/floating_widget_layout.xml" value="0.24427083333333333" />
+        <entry key="app/src/main/res/layout/floating_widget_layout_2.xml" value="0.24427083333333333" />
+        <entry key="app/src/main/res/layout/fragment_about.xml" value="0.24427083333333333" />
+        <entry key="app/src/main/res/layout/fragment_home.xml" value="0.23020833333333332" />
+        <entry key="app/src/main/res/layout/fragment_my_recordings.xml" value="0.24427083333333333" />
+        <entry key="app/src/main/res/layout/fragment_my_screenshots.xml" value="0.24427083333333333" />
+        <entry key="app/src/main/res/layout/fragment_settings.xml" value="0.24427083333333333" />
+        <entry key="app/src/main/res/layout/item_myvideofilelist.xml" value="0.24427083333333333" />
+        <entry key="app/src/main/res/layout/nav_header.xml" value="0.24427083333333333" />
+        <entry key="app/src/main/res/layout/notification_large.xml" value="0.24427083333333333" />
+        <entry key="app/src/main/res/layout/notification_large2.xml" value="0.24427083333333333" />
+        <entry key="app/src/main/res/layout/remove_floating_widget_layout.xml" value="0.24427083333333333" />
+        <entry key="app/src/main/res/menu/drawer_menu.xml" value="0.24427083333333333" />
+        <entry key="app/src/main/res/xml/pref_main.xml" value="0.165" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>
